@@ -1,0 +1,19 @@
+{
+  "name": "encurtador-de-url",
+  "version": "1.0.0",
+  "description": "Criação de uma API que tem a finalidade de encurtar uma URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magdieline/encurtador-de-url.git"
+  },
+  "author": "Magdieline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magdieline/encurtador-de-url/issues"
+  },
+  "homepage": "https://github.com/magdieline/encurtador-de-url#readme"
+}
