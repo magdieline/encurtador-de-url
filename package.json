@@ -15,8 +15,8 @@
   "bugs": {
     "url": "https://github.com/magdieline/encurtador-de-url/issues"
   },
- .  "homepage": "https://github.com/magdieline/encurtador-de-url#readme",
-  "dependencies": {
+   "homepage": "https://github.com/magdieline/encurtador-de-url#readme",
+   "dependencies": {
     "@hapi/hapi": "^20.2.2"
   }
 }
