@@ -1,4 +1,5 @@
 const server = require ('./server')
+const config = require('./config')
 
 
 const init = async () => {
@@ -6,12 +7,13 @@ const init = async () => {
         const serverInstance = await server;
     
         await serverInstance.start();
-        console.log('Server running on %s', serverInstance.info.uri);
+    console.log(`message: Server listening on port ${config.environmentVariables.PORT},environment ${config.environmentVariables.NODE_ENV}`
+    );
         
-      } catch (error) {
-        console.log('message: application startup error');
+    }  catch (error) {
+        console.log(`message: application startup error`);
         console.log(error.message);
-      }
-    };
-    init();
+    }
+};
+init();
 
