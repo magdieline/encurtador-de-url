@@ -1,4 +1,4 @@
-const Hapi = require('\'@hapi/hapi\'');
+const Hapi = require('@hapi/hapi');
 
 module.exports = (async () => {
 
@@ -6,6 +6,7 @@ module.exports = (async () => {
 		port: 3000,
 		host: 'localhost'
 	});
-	return server;
-})();
 
+	return server
+
+})();
