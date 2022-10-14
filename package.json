@@ -21,13 +21,16 @@
   "homepage": "https://github.com/magdieline/encurtador-de-url#readme",
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
-    "dotenv": "^16.0.2"
+    "dotenv": "^16.0.2",
+    "sinon": "^14.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "chai": "^4.3.6",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^10.0.0"
   }
 }
