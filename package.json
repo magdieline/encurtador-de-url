@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/magdieline/encurtador-de-url#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.2.2"
+    "@hapi/hapi": "^20.2.2",
+    "dotenv": "^16.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
