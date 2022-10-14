@@ -1,5 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const config = require('./config');
+const registers = require('./registers');
 
 
 module.exports = (async () => {
@@ -9,6 +10,8 @@ module.exports = (async () => {
     host: config.environmentVariables.HOST,
 
   });
+
+  await server.register(registers);
 
   return server;
 })();

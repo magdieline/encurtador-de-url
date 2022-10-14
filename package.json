@@ -33,6 +33,7 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.9.0",
+    "hapi-alive": "^2.0.4",
     "mocha": "^10.0.0"
   }
 }
