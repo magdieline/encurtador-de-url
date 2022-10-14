@@ -12,4 +12,3 @@ module.exports = (async () => {
     
     return server
 })();
-
