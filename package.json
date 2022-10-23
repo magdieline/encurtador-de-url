@@ -24,7 +24,7 @@
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
     "dotenv": "^16.0.2",
-    "sinon": "^14.0.1"
+    "hapi-alive": "^2.0.4"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -33,7 +33,8 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.9.0",
-    "hapi-alive": "^2.0.4",
-    "mocha": "^10.0.0"
+    "mocha": "^10.0.0",
+    "module": "^1.2.5",
+    "sinon": "^14.0.1"
   }
 }
