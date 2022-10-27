@@ -24,7 +24,9 @@
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
     "dotenv": "^16.0.2",
-    "hapi-alive": "^2.0.4"
+    "hapi-alive": "^2.0.4",
+    "hapi-swaggered": "^3.0.2",
+    "hapi-swaggered-ui": "^3.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
