@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/magdieline/encurtador-de-url#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.2.2",
+    "@hapi/hapi": "^17.9.0",
     "dotenv": "^16.0.2",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.10",
     "hapi-alive": "^2.0.4",
     "hapi-swaggered": "^3.0.2",
     "hapi-swaggered-ui": "^3.0.2",
