@@ -1,22 +1,30 @@
-const HapiAlive = require('hapi-alive');
+const Inert = require('inert');
+const Vision = require('vision');
+const HapiSwaggered = require('hapi-swaggered');
+const HapiSwaggeredUi = require('hapi-swaggered-ui');
 const pack = require('./package.json');
 
 module.exports = [
+  Inert,
+  Vision,
   {
-    plugin: HapiAlive,
+    plugin: HapiSwaggered,
     options: {
-      path: '/healthcheck',
-      tags: ['health', 'monitor'],
-      responses: {
-        healthy: {
-          message: `Version: ${pack.version}`,
-        },
-        unhealthy: {
-          statusCode: 400,
-        },
+      info: {
+        title: pack.name,
+        description: pack.description,
+        version: pack.version,
       },
-      healthCheck: async () => {
-        await true;
+      stripPrefix: '/v1',
+    },
+  },
+  {
+    plugin: HapiSwaggeredUi,
+    options: {
+      title: 'Example API',
+      path: '/docs',
+      swaggerOptions: {
+        validatorUrl: null,
       },
     },
   },
